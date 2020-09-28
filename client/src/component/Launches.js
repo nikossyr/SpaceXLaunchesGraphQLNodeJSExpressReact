@@ -23,7 +23,6 @@ function Launches(props) {
         console.log(error);
         return <p>Error </p>;
     }
-    console.log(data);
     return (
         <Fragment>
             <h1 className="display-4 my-3">Launches</h1>
